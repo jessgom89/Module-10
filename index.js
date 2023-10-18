@@ -23,6 +23,18 @@ inquirer.prompt ([{
 .then(response=>{
     if(response.shape==="Circle"){
         const circle=new Circle(response.text,response.textColor,response.shapeColor)
+        fs.writeFileSync("./examples/logo.svg",circle.render())
     }
+    if (response.shape==="Square"){
+        const square=new Square(response.text,response.textColor,response.shapeColor)
+        fs.writeFileSync("./examples/logo.svg",square.render())
+    
+
+    }
+    if (response.shape==="Triangle"){
+        const triangle=new Triangle (response.text,response.textColor,response.shapeColor)
+        fs.writeFileSync("./examples/logo.svg",triangle.render())
+    }
+
 })
 
