@@ -39,7 +39,7 @@ To view the resulting logo, users can simply open the logo.svg file in a browser
   
   to create svg logo <br>
   
-  <img src="./images/Logo SVG.gif">
+  <img src="images/Logo SVG.gif">
   
   ## Tests
   npm test
