@@ -32,6 +32,7 @@ To view the resulting logo, users can simply open the logo.svg file in a browser
  npm i inquirer jest
 
   ## Contributors 
+  Jessica
   
   ## Usage
 
